@@ -1,3 +1,7 @@
+export const removeCpfPunctuation = (cpf: string) => {
+    return cpf.replace(/[\.\-]/g, "")
+}
+
 export const isValidCpf = (cpf: string): boolean => {
     // remove caracteres não numericos
     cpf = cpf.replace(/\D/g, "");
