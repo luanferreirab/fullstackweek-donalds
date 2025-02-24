@@ -14,6 +14,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "FSW Donalds",
+  icons: 'favicon.io',
   description: "Bora finalizar esse projeto!",
 };
 
